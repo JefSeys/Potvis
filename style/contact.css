@@ -1,0 +1,28 @@
+.naastElkaarContact {
+    display: flex;
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .eersteContact {
+    width: 49%;
+    float: left;
+    padding-right: 5%;
+    text-decoration: none;
+    text-align: right;
+  }
+  
+  .tweedeContact {
+    width: 49%;
+    padding-left: 7%;
+  }
+  
+  .eersteContact ul li,
+  .tweedeContact ul li {
+    list-style-type: none;
+  }
+
+  .link {
+    color: #30a1ec;
+    text-decoration: none;
+  }
