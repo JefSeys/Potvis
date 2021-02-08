@@ -30,6 +30,12 @@ body{
     padding: 0;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .actief{
   color:#30a1ec!important;
 }

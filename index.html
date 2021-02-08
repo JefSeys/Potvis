@@ -25,19 +25,30 @@
       </div>
     <main>
         <h1 class="center">Welkom!</h1>
-        <div class="intro">
-          <p>
-            Duinvis is een vakantiewoning met alle comfort en voeten in het zand.
-          </p>
-          <p>
-            Binnenin is er mooi Noordzeelicht en zicht op duinenzand.
-          </p>
-          <p>
-            De gezellige kleuren en tijdloze eenvoud brengen je onmiddellijk in vakantiesfeer.
-          </p>
-          <p>
-            Duinvis is rustig gelegen op 800m van het mooie strand van Sint -André.
-          </p>
+        <div class="naastElkaarIntro">
+
+          <div class="introImgContainer">
+  
+            <div class="gallery centerDiv">
+              <a class="prevgallery" onclick="changeGallery(-1)">&#10094;</a>
+              <a class="nextgallery" onclick="changeGallery(1)">&#10095;</a>
+  
+              <img class="center galleryImg" src="img/1.jpg" alt="" style="display: block;">
+              <img class="center galleryImg" src="img/7.jpg" alt="" style="display: none;">
+              <img class="center galleryImg" src="img/9.jpg" alt="" style="display: none;">
+              <img class="center galleryImg" src="img/16.jpg" alt="" style="display: none;">
+              <img class="center galleryImg" src="img/19.jpg" alt="" style="display: none;">
+  
+            </div>
+          </div>
+  
+          <div class="intro">
+            <div class="verticalCenter">
+              <a class="fontGroter120">
+                Oostduinkerke-aan-zee : Charmante vakantiewoning op slechts 250 m van het strand. Dit vakantiehuis beschikt over een gezellige leefruimte met TV, een ingerichte keuken met vaatwasser, oven, frigo met diepvriesvak, 5 slaapkamers, 2 badkamers met elk een inloopdouche, wastafel en toilet, tuin met zonnig terras met tuinbank en ligstoelen, barbecuefaciliteiten, gratis WiFi en gratis priv&eacute;parkeergelegenheid. Er is tevens een afgesloten ruimte om de fietsen te plaatsen. Winkels, eetgelegenheden, strand en zee op wandelafstand!
+              </a>
+            </div>
+          </div>
         </div>
     </main>
     <footer class="footer-distributed">
@@ -94,3 +105,4 @@
 </body>
 
 </html>
+<script src="js/gallery.js"></script>
