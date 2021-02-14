@@ -19,9 +19,9 @@
   
 body{
     font-family: 'Open Sans', sans-serif;
-    color: white;/*
-    background-color: #5d5c60;*/
-    background-image: url("../img/Achtergrond.jpg");
+    color: white;
+    background-color: #5d5c60;/*
+    background-image: url("../img/Achtergrond.jpg");*/
     background-size: cover;
     background-attachment: fixed;
     background-repeat: repeat;
@@ -153,8 +153,8 @@ section {
   background-color: #33383b;
   color: #ffffff;
   font-size: 25px;
-  width: 38px;
-  height: 38px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   text-align: center;
   line-height: 42px;

@@ -1,5 +1,17 @@
 
 
+  
+  .topImg{
+    width: 100%;
+  }
+
+  .topDiv{
+    width: 80%;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+  
   .introImg{
     width: 100%;
         height: auto;
