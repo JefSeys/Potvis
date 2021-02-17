@@ -4,6 +4,12 @@
   line-height: 0%;
 }
 
+.titelLijn {
+  width: 100px;
+  border-top: 2px solid #366291;
+  margin-bottom: 20px;
+}
+
 .center {
     text-align: center;
     display: block;
