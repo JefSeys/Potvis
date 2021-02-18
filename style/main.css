@@ -295,4 +295,12 @@ section {
   .titel {
     display: none;
   }
+  
+  .fontGroter110{
+    font-size: 110%;
+  }
+
+  .fontGroter120{
+    font-size: 120%;
+  }
 }
