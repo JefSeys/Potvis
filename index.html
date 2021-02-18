@@ -2,113 +2,187 @@
 <html lang="nl">
 
 <head>
-    <title>Potvis</title>
-    <link href="style/reset_browser_styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/index.css">
-    <link rel="stylesheet" href="style/all.css" />
+  <title>Potvis</title>
+  <link href="style/reset_browser_styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/index.css">
+  <link rel="stylesheet" href="style/all.css" />
 </head>
 
 <body>
   <div class="imgDiv">
     <img class="topImg" src="img/Potvis.jpg" alt="Logo">
   </div>
-    <div id="navbar">
-        <div class="titel" id="titel">
-            <a class="actief" href="index.html">Potvis</a>
-            <a href="de_woning.html">De Woning</a>
-            <a href="info.html">Info</a>
-            <a href="ligging.html">Ligging</a>
-            <a href="contact.html">Contact</a>
-            <a href="recensies.html">Recensies</a>
+  <div id="navbar">
+    <div class="stippenKlein">
+      <a onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
+
+      <div class="titelKlein" id="titelKlein" style="display: none;">
+        <a class="actief" href="index.html" onclick="toggleMenu()">Potvis</a>
+        <a href="de_woning.html" onclick="toggleMenu()">De Woning</a>
+        <a href="info.html" onclick="toggleMenu()">Info</a>
+        <a href="ligging.html" onclick="toggleMenu()">Ligging</a>
+        <a href="contact.html" onclick="toggleMenu()">Contact</a>
+      </div>
+    </div>
+    <div class="titel" id="titel">
+      <a class="actief" href="index.html">Potvis</a>
+      <a href="de_woning.html">De Woning</a>
+      <a href="info.html">Info</a>
+      <a href="ligging.html">Ligging</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </div>
+  <main>
+    <div id="content">
+    <div class="topDiv">
+      <img class="topImg" src="img/a1.jpg" alt="" style="padding-bottom: 50px;">
+    </div>
+
+    <h2 class="center">Vakantiewoning Potvis Oostduinkerke</h2>
+    <div class="titelLijn center"></div>
+    <div class="naastElkaarIntro">
+
+      <div class="introImgContainer">
+
+        <div class="gallery centerDiv">
+          <a class="prevgallery" onclick="changeGallery(-1)">&#10094;</a>
+          <a class="nextgallery" onclick="changeGallery(1)">&#10095;</a>
+
+          <img class="center galleryImg" src="img/a.jpg" alt="" style="display: block;">
+          <img class="center galleryImg" src="img/c.jpg" alt="" style="display: none;">
+          <img class="center galleryImg" src="img/d.jpg" alt="" style="display: none;">
+          <img class="center galleryImg" src="img/e.jpg" alt="" style="display: none;">
+          <img class="center galleryImg" src="img/f.jpg" alt="" style="display: none;">
+          <img class="center galleryImg" src="img/g.jpg" alt="" style="display: none;">
+          <img class="center galleryImg" src="img/h.jpg" alt="" style="display: none;">
+          <img class="center galleryImg" src="img/i.jpg" alt="" style="display: none;">
+          <img class="center galleryImg" src="img/j.jpg" alt="" style="display: none;">
+          <img class="center galleryImg" src="img/k.jpg" alt="" style="display: none;">
+
         </div>
       </div>
-    <main>
-        <div class="topDiv">
-          <img class="topImg" src="img/a1.jpg" alt="" style="padding-bottom: 50px;">
-        </div>
-        
-      <h2 class="center">Vakantiewoning Potvis Oostduinkerke</h2>
-      <div class="titelLijn center"></div>
-        <div class="naastElkaarIntro">
 
-          <div class="introImgContainer">
-  
-            <div class="gallery centerDiv">
-              <a class="prevgallery" onclick="changeGallery(-1)">&#10094;</a>
-              <a class="nextgallery" onclick="changeGallery(1)">&#10095;</a>
-  
-              <img class="center galleryImg" src="img/a.jpg" alt="" style="display: block;">
-              <img class="center galleryImg" src="img/c.jpg" alt="" style="display: none;">
-              <img class="center galleryImg" src="img/d.jpg" alt="" style="display: none;">
-              <img class="center galleryImg" src="img/e.jpg" alt="" style="display: none;">
-              <img class="center galleryImg" src="img/f.jpg" alt="" style="display: none;">
-              <img class="center galleryImg" src="img/g.jpg" alt="" style="display: none;">
-              <img class="center galleryImg" src="img/h.jpg" alt="" style="display: none;">
-              <img class="center galleryImg" src="img/i.jpg" alt="" style="display: none;">
-              <img class="center galleryImg" src="img/j.jpg" alt="" style="display: none;">
-              <img class="center galleryImg" src="img/k.jpg" alt="" style="display: none;">
-  
-            </div>
-          </div>
-  
-          <div class="intro">
-            <div class="verticalCenter">
-              <a class="fontGroter120">
-                Oostduinkerke-aan-zee : Charmante vakantiewoning op slechts 1300 m van het strand. Dit vakantiehuis beschikt over een gezellige leefruimte met TV, een ingerichte keuken met vaatwasser, oven, frigo met diepvriesvak, 4 slaapkamers, 2 badkamers met elk een inloopdouche, wastafel en toilet, tuin met zonnig terras met tuintafel en - stoelen, gratis WiFi en gratis privéparkeergelegenheid. Winkels, eetgelegenheden, strand en zee op wandelafstand!
-              </a>
-            </div>
-          </div>
+      <div class="intro">
+        <div class="verticalCenter">
+          <a class="fontGroter120">
+            Oostduinkerke-aan-zee : Charmante vakantiewoning op slechts 1300 m van het strand. Dit vakantiehuis beschikt
+            over een gezellige leefruimte met TV, een ingerichte keuken met vaatwasser, oven, frigo met diepvriesvak, 4
+            slaapkamers, 2 badkamers met elk een inloopdouche, wastafel en toilet, tuin met zonnig terras met tuintafel
+            en - stoelen, gratis WiFi en gratis privéparkeergelegenheid. Winkels, eetgelegenheden, strand en zee op
+            wandelafstand!
+          </a>
         </div>
-    </main>
-    <footer class="footer-distributed">
-        <div class="footer-left">
-          <h3>Vakantiewoning<span> Potvis</span></h3>
-      
-          <p class="footer-links">
-            <a class="actief" href="index.html" class="link-1">Potvis</a>
-      
-            <a href="de_woning.html">De Woning</a>
-      
-            <a href="info.html">Info</a>
-      
-            <a href="ligging.html">Ligging</a>
-      
-            <a href="contact.html">Contact</a>
-      
-            <a href="recensies.html">Recensies</a>
-          </p>
-      
-          <p class="footer-company-name">Potvis © 2021</p>
-        </div>
-      
-        <div class="footer-center">
-          <div>
-            <i class="fa fa-map-marker"></i>
-            <a href="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=nl&amp;q=+(potvis%20witte%20burg%2020)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
-              target="_blank">
-              <p style="color: #30a1ec;">Witte Burg 20<br>8670 Oostduinkerke</p>
-            </a>
-          </div>
-      
-          <div>
-            <i class="fa fa-phone"></i>
-            <p><a class="link" href="tel:0478/80 80 98">0478/80 80 98</a></p>
-          </div>
-      
-          <div>
-            <i class="fa fa-envelope"></i>
-            <p><a href="mailto:els@potvis.be" class="link">els@potvis.be</a></p>
-          </div>
-        </div>
-      
-        <div class="footer-right">
-          <p class="footer-company-about">
-            Heeft u nog vragen of opmerkingen, neem dan zeker contact met ons op.
-          </p>
-        </div>
-      </footer>
+      </div>
+    </div>
+  </div>
+  </main>
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <h3>Vakantiewoning<span> Potvis</span></h3>
+
+      <p class="footer-links">
+        <a class="actief" href="index.html" class="link-1">Potvis</a>
+
+        <a href="de_woning.html">De Woning</a>
+
+        <a href="info.html">Info</a>
+
+        <a href="ligging.html">Ligging</a>
+
+        <a href="contact.html">Contact</a>
+
+      </p>
+
+      <p class="footer-company-name">Potvis © 2021</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <a href="https://www.google.be/maps/place/Vakantiewoning+POTVIS/@51.1226119,2.6726663,17z/data=!4m12!1m6!3m5!1s0x47dcbd1e790fbba7:0xc0d8760c95cd780d!2sVakantiewoning+POTVIS!8m2!3d51.1226086!4d2.674855!3m4!1s0x47dcbd1e790fbba7:0xc0d8760c95cd780d!8m2!3d51.1226086!4d2.674855?hl=nl&authuser=0"
+          target="_blank">
+          <p style="color: #30a1ec;">Witte Burg 20<br>8670 Oostduinkerke</p>
+        </a>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p><a class="link" href="tel:0478/80 80 98">0478/80 80 98</a></p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:els@potvis.be" class="link">els@potvis.be</a></p>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <p class="footer-company-about">
+        Heeft u nog vragen of opmerkingen, neem dan zeker contact met ons op.
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>
+<script>
+
+window.onscroll = function () {
+    myFunction();
+  };
+
+  var navbar = document.getElementById("navbar");
+  var content = document.getElementById('content');
+  var sticky;
+
+  function myFunction() {
+    if (sticky != navbar.offsetTop && navbar.offsetTop != 0) {
+      sticky = navbar.offsetTop;
+    }
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky");
+      content.style.paddingTop = '65px';
+
+    } else {
+      navbar.classList.remove("sticky");
+      content.style.paddingTop = '0px';
+    }
+  }
+
+
+  function toggleMenu() {
+    var x = document.getElementById("titelKlein");
+    if (x.style.display === "inline-block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "inline-block";
+    }
+  }
+
+  document.onkeydown = function (e) {
+    e = e || window.event;
+    if (e.keyCode == '37') {
+      changeImage(-1) //left <- show Prev image
+    } else if (e.keyCode == '39') {
+      // right -> show next image
+      changeImage(1)
+    } else if (e.keyCode == '27') {
+      document.getElementById("myModal").style.display = "none";
+    }
+  }
+
+  function changeImage(dir) {
+    var modal = document.getElementById("myModal");
+    if (modal.style.display == "block") {
+      if (dir == -1) {
+        plusSlidesLightbox(-1)
+      }
+      else {
+        plusSlidesLightbox(1)
+      }
+    }
+
+  }
+</script>
 <script src="js/gallery.js"></script>

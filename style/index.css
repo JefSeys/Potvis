@@ -31,18 +31,18 @@
   }
   
   .intro {
-    width: 40%;
+    width: 30%;
     position: absolute;
     right: 0;
     top: 25%;
     padding-right: 10%;
+    padding-left: 10%;
   }
 
   .gallery{
     position: relative;
     height: 500px;
     width: 800px;
-    max-width: 50%;
   }
 
   .gallery img{
