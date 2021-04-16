@@ -25,4 +25,24 @@
   .link {
     color: #30a1ec;
     text-decoration: none;
+
+
+  }.topImg{
+    width: 100%;
+  }
+
+  .deel1,
+  .deel2,
+  .deel3 {
+    width: 33%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  
+  .delen {
+    display: flex;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
   }

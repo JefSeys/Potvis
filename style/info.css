@@ -30,3 +30,16 @@
 .iconInfo{
     width: 50%;
   }
+
+  @media (max-width: 880px){
+.infoDelen {
+    display: table;
+    margin: 0 auto;
+}
+.infoDeel1,
+.infoDeel2,
+.infoDeel3 {
+  width: 100%;
+  margin-bottom: 50px;
+}
+}

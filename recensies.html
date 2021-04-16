@@ -2,31 +2,46 @@
 <html lang="nl">
 
 <head>
-    <title>Potvis</title>
-    <link rel="icon" href="img/logo.png" />
-    <link href="style/reset_browser_styles.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style/main.css">
-    <link rel="stylesheet" href="style/recensies.css">
-    <link rel="stylesheet" href="style/all.css" />
+  <title>Potvis</title>
+  <link rel="icon" href="img/logo.png" />
+  <link href="style/reset_browser_styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style/main.css">
+  <link rel="stylesheet" href="style/recensies.css">
+  <link rel="stylesheet" href="style/all.css" />
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-189984081-1"></script>
 
+  <script>
+
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() { dataLayer.push(arguments); }
+
+    gtag('js', new Date());
+
+
+
+    gtag('config', 'UA-189984081-1');
+
+  </script>
 </head>
 
 <body>
   <div class="imgDiv">
     <img class="topImg" src="img/Potvis.jpg" alt="Logo">
   </div>
-    
+
   <div id="navbar">
     <div class="stippenKlein">
-      <a onclick="toggleMenu()"><i class="fa fa-bars"></i></a>
+      <a onclick="toggleMenu()" style="text-align: left!important;"><i class="fa fa-bars"
+          style="font-size:36px"></i></a>
 
       <div class="titelKlein" id="titelKlein" style="display: none;">
-        <a href="index.html" onclick="toggleMenu()">Potvis</a>
-        <a href="de_woning.html" onclick="toggleMenu()">De Woning</a>
-        <a href="info.html" onclick="toggleMenu()">Info</a>
-        <a href="ligging.html" onclick="toggleMenu()">Ligging</a>
-        <a href="contact.html" onclick="toggleMenu()">Contact</a>
-        <a class="actief" href="recensies.html" onclick="toggleMenu()">Recensies</a>
+        <a href="index.html" onclick="toggleMenu()" style="text-align: left!important;">Potvis</a>
+        <a href="de_woning.html" onclick="toggleMenu()" style="text-align: left!important;">De Woning</a>
+        <a href="info.html" onclick="toggleMenu()" style="text-align: left!important;">Info</a>
+        <a href="ligging.html" onclick="toggleMenu()" style="text-align: left!important;">Ligging</a>
+        <a href="contact.html" onclick="toggleMenu()" style="text-align: left!important;">Contact</a>
+        <a class="actief" href="recensies.html" onclick="toggleMenu()" style="text-align: left!important;">Recensies</a>
       </div>
     </div>
     <div class="titel" id="titel">
@@ -38,56 +53,106 @@
       <a class="actief" href="recensies.html">Recensies</a>
     </div>
   </div>
-    <main>
-        <h1 class="center">Recensies</h1>
-    </main>
-    <footer class="footer-distributed">
-        <div class="footer-left">
-          <h3>Vakantiewoning<span> Potvis</span></h3>
-      
-          <p class="footer-links">
-            <a href="index.html" class="link-1">Potvis</a>
-      
-            <a href="de_woning.html">De Woning</a>
-      
-            <a href="info.html">Info</a>
-      
-            <a href="ligging.html">Ligging</a>
-      
-            <a href="contact.html">Contact</a>
-      
-            <a class="actief" href="recensies.html">Recensies</a>
-          </p>
-      
-          <p class="footer-company-name">Potvis © 2021</p>
+  <main>
+    <h1 class="center">Recensies</h1>
+    <div id="recensies">
+      <div class="titelLijn center"></div>
+      <br>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width slides/quotes -->
+
+        <div class="mySlidesReview">
+          <q>It is very well located, close to the seaside, to the city center, while being very quiet. The living room is spacious, there is a very comfortable table in the garden and there is enough space in the bedrooms. The entire house was very clean.</q>
+          <p class="author center">- Wape</p>
         </div>
-      
-        <div class="footer-center">
-          <div>
-            <i class="fa fa-map-marker"></i>
-            <a href="https://www.google.be/maps/place/Vakantiewoning+POTVIS/@51.1226119,2.6726663,17z/data=!4m12!1m6!3m5!1s0x47dcbd1e790fbba7:0xc0d8760c95cd780d!2sVakantiewoning+POTVIS!8m2!3d51.1226086!4d2.674855!3m4!1s0x47dcbd1e790fbba7:0xc0d8760c95cd780d!8m2!3d51.1226086!4d2.674855?hl=nl&authuser=0"
-              target="_blank">
-              <p style="color: #30a1ec;">Witte Burg 20<br>8670 Oostduinkerke</p>
-            </a>
-          </div>
-      
-          <div>
-            <i class="fa fa-phone"></i>
-            <p><a class="link" href="tel:0478/80 80 98">0478/80 80 98</a></p>
-          </div>
-      
-          <div>
-            <i class="fa fa-envelope"></i>
-            <p><a href="mailto:els@potvis.be" class="link">els@potvis.be</a></p>
-          </div>
+
+        <div class="mySlidesReview">
+          <q>De locatie dicht bij de duinen</q>
+          <p class="author center">- Koen</p>
         </div>
-      
-        <div class="footer-right">
-          <p class="footer-company-about">
-            Heeft u nog vragen of opmerkingen, neem dan zeker contact met ons op.
-          </p>
+
+        <div class="mySlidesReview">
+          <q>La décoration de la maison est super jolie !
+            Il y a deux belles salles de bain ce qui est super lorsque l’on séjourne à 8 dans une maison.
+            Le séjour possède beaucoup de vitrages, il est très lumineux et super agréable.
+            La situation de la maison est top : proche des dunes et des commerces.
+          </q>
+          <p class="author center">- Anoniem</p>
         </div>
-      </footer>
+
+        <!-- Next/prev buttons -->
+        <a class="prev" onclick="plusSlides(-1, 'mySlidesReview', 'dot3')">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 'mySlidesReview', 'dot3')">&#10095;</a>
+      </div>
+      <!-- Dots/bullets/indicators -->
+      <div class="dot-container center">
+        <span class="dot3 dot" onclick="currentSlide(1, 'mySlidesReview', 'dot3')"></span>
+        <span class="dot3 dot" onclick="currentSlide(2, 'mySlidesReview', 'dot3')"></span>
+        <span class="dot3 dot" onclick="currentSlide(3, 'mySlidesReview', 'dot3')"></span>
+      </div>
+    </div>
+    <div class="centerDiv">
+      <div class="delen">
+        <div class="deel1">
+          <img class="topImg" src="img/d.jpg" alt="" style="padding-bottom: 50px;">
+        </div>
+        <div class="deel2">
+          <img class="topImg" src="img/c.jpg" alt="" style="padding-bottom: 50px;">
+        </div>
+        <div class="deel3">
+          <img class="topImg" src="img/j.jpg" alt="" style="padding-bottom: 50px;">
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer-distributed">
+    <div class="footer-left">
+      <h3>Vakantiewoning<span> Potvis</span></h3>
+
+      <p class="footer-links">
+        <a href="index.html" class="link-1">Potvis</a>
+
+        <a href="de_woning.html">De Woning</a>
+
+        <a href="info.html">Info</a>
+
+        <a href="ligging.html">Ligging</a>
+
+        <a href="contact.html">Contact</a>
+
+        <a class="actief" href="recensies.html">Recensies</a>
+      </p>
+
+      <p class="footer-company-name">Potvis &copy; 2021</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+        <a href="https://www.google.be/maps/place/Vakantiewoning+POTVIS/@51.1226119,2.6726663,17z/data=!4m12!1m6!3m5!1s0x47dcbd1e790fbba7:0xc0d8760c95cd780d!2sVakantiewoning+POTVIS!8m2!3d51.1226086!4d2.674855!3m4!1s0x47dcbd1e790fbba7:0xc0d8760c95cd780d!8m2!3d51.1226086!4d2.674855?hl=nl&authuser=0"
+          target="_blank">
+          <p style="color: #30a1ec;">Witte Burg 20<br>8670 Oostduinkerke</p>
+        </a>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p><a class="link" href="tel:0478/80 80 98">0478/80 80 98</a></p>
+      </div>
+
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:els@potvis.net" class="link">els@potvis.net</a></p>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <p class="footer-company-about">
+        Heeft u nog vragen of opmerkingen, neem dan zeker contact met ons op.
+      </p>
+    </div>
+  </footer>
 </body>
 
 </html>
@@ -152,3 +217,4 @@
 
   }
 </script>
+<script src="js/reviews.js"></script>
